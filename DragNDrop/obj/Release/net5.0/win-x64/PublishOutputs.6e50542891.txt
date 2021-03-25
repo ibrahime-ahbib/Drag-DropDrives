@@ -1,0 +1,6 @@
+C:\Users\Ibrah\RiderProjects\DragNDrop\DragNDrop.pdb
+C:\Users\Ibrah\RiderProjects\DragNDrop\clrcompression.dll
+C:\Users\Ibrah\RiderProjects\DragNDrop\clrjit.dll
+C:\Users\Ibrah\RiderProjects\DragNDrop\coreclr.dll
+C:\Users\Ibrah\RiderProjects\DragNDrop\mscordaccore.dll
+C:\Users\Ibrah\RiderProjects\DragNDrop\DragNDrop.exe

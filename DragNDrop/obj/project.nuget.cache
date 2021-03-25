@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+MmivTeeH7rPRl5OL7oM2+UZXA+sCbhUQdm0VJIHBjcyITuttPPCHx1+2gQRIcnhi1oc1dG7WfUwAcj+RgLRqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ibrah\\RiderProjects\\DragNDrop\\DragNDrop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ibrah\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.4\\microsoft.netcore.app.runtime.win-x64.5.0.4.nupkg.sha512",
+    "C:\\Users\\Ibrah\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.4.nupkg.sha512",
+    "C:\\Users\\Ibrah\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.4\\microsoft.aspnetcore.app.runtime.win-x64.5.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

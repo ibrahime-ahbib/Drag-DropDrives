@@ -1,0 +1,16 @@
+C:\Users\Ibrah\RiderProjects\DragNDrop\bin\Debug\net5.0\DragNDrop.exe
+C:\Users\Ibrah\RiderProjects\DragNDrop\bin\Debug\net5.0\DragNDrop.deps.json
+C:\Users\Ibrah\RiderProjects\DragNDrop\bin\Debug\net5.0\DragNDrop.runtimeconfig.json
+C:\Users\Ibrah\RiderProjects\DragNDrop\bin\Debug\net5.0\DragNDrop.runtimeconfig.dev.json
+C:\Users\Ibrah\RiderProjects\DragNDrop\bin\Debug\net5.0\DragNDrop.dll
+C:\Users\Ibrah\RiderProjects\DragNDrop\bin\Debug\net5.0\ref\DragNDrop.dll
+C:\Users\Ibrah\RiderProjects\DragNDrop\bin\Debug\net5.0\DragNDrop.pdb
+C:\Users\Ibrah\RiderProjects\DragNDrop\obj\Debug\net5.0\DragNDrop.csprojAssemblyReference.cache
+C:\Users\Ibrah\RiderProjects\DragNDrop\obj\Debug\net5.0\DragNDrop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrah\RiderProjects\DragNDrop\obj\Debug\net5.0\DragNDrop.AssemblyInfoInputs.cache
+C:\Users\Ibrah\RiderProjects\DragNDrop\obj\Debug\net5.0\DragNDrop.AssemblyInfo.cs
+C:\Users\Ibrah\RiderProjects\DragNDrop\obj\Debug\net5.0\DragNDrop.csproj.CoreCompileInputs.cache
+C:\Users\Ibrah\RiderProjects\DragNDrop\obj\Debug\net5.0\DragNDrop.dll
+C:\Users\Ibrah\RiderProjects\DragNDrop\obj\Debug\net5.0\ref\DragNDrop.dll
+C:\Users\Ibrah\RiderProjects\DragNDrop\obj\Debug\net5.0\DragNDrop.pdb
+C:\Users\Ibrah\RiderProjects\DragNDrop\obj\Debug\net5.0\DragNDrop.genruntimeconfig.cache
