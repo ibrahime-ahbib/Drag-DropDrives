@@ -15,8 +15,8 @@ namespace DragNDrop
     {
         static void Main(string[] args)
         {
-            string[] path = args[0].Split(@"\"); //@ = échape les caractères de chemin de fichier
-            string nameFile = path[^1]; //une case à partir de la fin
+            string[] path = args[0].Split(@"\");
+            string nameFile = path[^1]; 
            
             foreach (var drive in DriveInfo.GetDrives())
             {
