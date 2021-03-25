@@ -3,7 +3,7 @@ using System.IO;
 
 /**
  * @file Program.cs
- * @author Ibrahime Ahbib (Braxoia)
+ * @author Ibrahime (Braxoia)
  * @version 1 25/03/2021
  * @brief Copy a file or a directory
  * at the root of hard drives
