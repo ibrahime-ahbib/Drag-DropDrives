@@ -40,7 +40,7 @@ namespace DraNDrop
         
         public static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
         {
-            // Get the subdirectories for the specified directory.
+            // Get the subdirectories for the specified directory
             DirectoryInfo dir = new DirectoryInfo(sourceDirName);
             Console.WriteLine(sourceDirName);
             
