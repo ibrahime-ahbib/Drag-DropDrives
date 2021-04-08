@@ -5,6 +5,10 @@ namespace DraNDrop
 {
     public class DragNDrop
     {
+        /**
+         * Copy file(s) or directory(ies) in multiple hard drives
+         * @param input_path the path of directory or file to copy
+         */
         public static void DNDrop(string input_path)
         {
             string[] path = input_path.Split(@"\"); //@ = échape les caractères de chemin de fichier 
@@ -38,6 +42,11 @@ namespace DraNDrop
             }
         }
         
+        /**
+         * Copy a directory and his content at the root of hard drive
+         * @param sourceDirname the source of directory
+         * @param copySubDirs copy also subdirectories 
+         */
         public static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
         {
             // Get the subdirectories for the specified directory
