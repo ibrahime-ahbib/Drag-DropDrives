@@ -5,7 +5,7 @@
 #define MyAppExeName "GUI.exe"
 
 [Setup]
-AppId={B55454ED-1023-4DD1-A90E-41E61A562540}
+AppId=B55454ED-1023-4DD1-A90E-41E61A562540
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
