@@ -1,0 +1,36 @@
+﻿name: CICD Windows
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Build Windows Installer
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 5.0.x
+      - name: Clean dependancies
+        run: dotnet clean && dotnet nuget locals all --clear && dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org --configfile $env:APPDATA\NuGet\NuGet.Config
+      - name: Restore dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --no-restore
+      - name: Test
+        run: dotnet test --no-build --verbosity normal
+      - name: Build Executable
+        run: cd GUI && dotnet publish --output "c:/temp/gui" --runtime win-x64 --configuration Release -p:PublishSingleFile=true --self-contained true
+      - name: Compile Installer
+        run: iscc "installer.iss"
+      - name: Save Installer as Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: drag-drop-drives-setup
+          path: C:\temp\gui\drag-drop-drives-setup.exe

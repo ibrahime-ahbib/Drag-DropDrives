@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DragNDrop\DragNDrop.csproj" />
       <ProjectReference Include="..\DraNDrop\DraNDrop.csproj" />
     </ItemGroup>
 
